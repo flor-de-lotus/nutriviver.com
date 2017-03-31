@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Nutrição
-permalink: /nutricao/
+title: Serviços
+permalink: /servicos/
 ---
 
     <!-- Slider Start -->
