@@ -153,6 +153,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #intro {
   /*padding: 100px 0;*/
 }
+
 #intro .block h2 {
   padding-top: 35px;
   line-height: 27px;
@@ -163,20 +164,39 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #7B7B7B;
   padding-top: 20px;
 }
+#intro .block ol {
+  color: #7B7B7B;
+  padding-top: 20px;
+}
 #intro .block img {
   /*padding-left: 40px;*/
   opacity: 0.85;
   filter: alpha(opacity=85);
-  display: block;
-  margin: auto;
-  width: 100%;
-  max-width: 400px;
+  /*display: block;*/
+  /*margin: auto;*/
+  /*width: 100%;
+  max-width: 400px;*/
 }
 #intro .section-title {
   margin-bottom: 0px;
 }
 #intro .section-title p {
   padding-top: 20px;
+}
+
+.myrow {
+    font-size: 0;
+}
+.myrow > * {
+    float: none;
+    display: inline-block;
+    font-size: 14px; /* if using LESS it's quicker to just use @font-size-base */
+}
+.myrow > *:last-child {
+    vertical-align: bottom;
+}
+.myrow p:last-child {
+    margin-bottom: 0; /* optional */
 }
 /*--
 	service Start
