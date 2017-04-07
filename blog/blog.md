@@ -10,6 +10,7 @@ permalink: /blog/
       <div class="col-md-12">
         <div class="block">
           <h1>Blog com Receitas e dicas sobre Nutrição</h1>
+          <p>o</p>
         </div>
       </div>
     </div>
